@@ -8,7 +8,7 @@ public class Product {
 
     public double totalValorEstoque(){
 
-        return preco * quantidade;
+        return this.preco * quantidade;
     }
 
     public void adicionarQuantidade(int quantidade){
@@ -23,7 +23,7 @@ public class Product {
     public String toString() {
         return "Product{" +
                 "nome = '" + nome + '\'' +
-                ", preco = " + preco +
+                ", preco = " + totalValorEstoque() +
                 ", Quantidade = " + quantidade +
                 '}';
     }

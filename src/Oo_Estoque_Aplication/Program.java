@@ -5,19 +5,31 @@ import Oo_Estoque_Entidades.Product;
 import java.util.Scanner;
 
 public class Program {
-    public static void main (String args[]){
+    public static void main(String args[]) {
         Scanner ler = new Scanner(System.in);
 
         Product produto = new Product();
         System.out.println("Entre com os dados do Produto: ");
-        System.out.printf("Nome: ");
+        System.out.print("Nome: ");
         produto.nome = ler.next();
-        System.out.printf("Preço: ");
+        System.out.print("Preço: ");
         produto.preco = ler.nextDouble();
-        System.out.printf("Quantidade: ");
+        System.out.print("Quantidade: ");
         produto.quantidade = ler.nextInt();
 
-        System.out.printf("Relatório " + produto.toString());
+        System.out.println("Relatório 1 " + produto.toString());
+
+        System.out.print("Digite a quantidade de entrada no Estoque: ");
+        int quantidade = ler.nextInt();
+        produto.adicionarQuantidade(quantidade);
+
+        System.out.println("Relatório 2 " + produto.toString());
+
+        System.out.print("Digite a quantidade de saida no Estoque: ");
+        quantidade = ler.nextInt();
+        produto.removerQuantidade(quantidade);
+
+        System.out.println("Relatório 3 " + produto.toString());
 
 
     }
