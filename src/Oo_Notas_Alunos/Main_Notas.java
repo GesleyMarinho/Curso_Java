@@ -32,16 +32,12 @@ public class Main_Notas {
             ler.close();
         }
 
-        if(a.mediaAluno() < 60){
-            System.out.println("Faltou "+ a.mediaAluno()+ " Pontos");
+        if (a.mediaAluno() < 60) {
+            System.out.println("Faltou " + a.mediaAluno() + " Pontos");
             System.out.println("Reprovado!");
-        }else {
+        } else {
             System.out.println("Nota Final " + a.mediaAluno());
             System.out.println("Aprovado");
-
         }
-
-       // System.out.println("Relatorio " + a.toString());
-
     }
 }
