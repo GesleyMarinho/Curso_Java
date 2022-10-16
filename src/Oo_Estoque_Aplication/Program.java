@@ -11,11 +11,11 @@ public class Program {
         Product produto = new Product();
         System.out.println("Entre com os dados do Produto: ");
         System.out.print("Nome: ");
-        produto.nome = ler.next();
+        produto.setNome(ler.next());
         System.out.print("Preço: ");
-        produto.preco = ler.nextDouble();
+        produto.setPreco(ler.nextDouble());
         System.out.print("Quantidade: ");
-        produto.quantidade = ler.nextInt();
+        produto.setQuantidade(ler.nextInt());
 
         System.out.println("Relatório 1 " + produto.toString());
 
