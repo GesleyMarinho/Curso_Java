@@ -20,6 +20,7 @@ public class Main {
         Dados dados[] = new Dados[n];
 
         for (int i = 0; i < dados.length; i++) {
+            System.out.println("Dados "+ (i+1) +" Primeira pessoa...");
             System.out.printf("Qual a altura da Pessoa : ");
             double altura = ler.nextDouble();
             ler.nextLine();
@@ -45,7 +46,7 @@ public class Main {
         mediaAlturaMulheres = mediaAlturaMulheres / contF;
         System.out.println("Qual a maior Altura: " + maiorAltura);
         System.out.println("Quantos Homens tem cadastrados: " + contM);
-        System.out.println("Qual a media de altura das mulheres: "+ df.format(mediaAlturaMulheres) );
+        System.out.println("Qual a media de altura das mulheres: "+ df.format(mediaAlturaMulheres) +"%");
         System.out.println("Qual a menor Altura: "+ menorAltura);
     }
 }

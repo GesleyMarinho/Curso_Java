@@ -41,7 +41,7 @@ public class Main {
         idadeMedia16 = (float) (cont / n) * 100;
 
         ler.nextLine();
-        System.out.printf("A Porcetagem de pessoas abaixo dos 16 anos é : %.2f" , idadeMedia16);
+        System.out.printf("A Porcetagem de pessoas abaixo dos 16 anos é : %.2f%n" , idadeMedia16);
         ler.nextLine();
         System.out.printf("A Média da Altura é %.2f" , mediaAltura);
 
