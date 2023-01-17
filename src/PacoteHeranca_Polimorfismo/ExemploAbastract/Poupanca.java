@@ -1,6 +1,4 @@
-package PacoteHeranca_Polimorfismo.Exemplo;
-
-import PacoteHeranca_Polimorfismo.Exemplo.Conta;
+package PacoteHeranca_Polimorfismo.ExemploAbastract;
 
 public   class Poupanca extends Conta {
     private double taxaJuros;

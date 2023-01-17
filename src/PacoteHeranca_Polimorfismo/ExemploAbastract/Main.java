@@ -1,4 +1,4 @@
-package PacoteHeranca_Polimorfismo.Exemplo;
+package PacoteHeranca_Polimorfismo.ExemploAbastract;
 
 public class Main {
     public static void main(String[] args) {
