@@ -3,6 +3,7 @@ package PacoteAulasOrietacaoObjetos.Oo_dolares;
 public class ConversaoDolares {
 
     public static double precoPagar(double dollar, double qtCompra) {
+
         return dollar * qtCompra;
     }
 
