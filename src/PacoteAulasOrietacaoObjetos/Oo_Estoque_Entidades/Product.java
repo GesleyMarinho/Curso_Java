@@ -6,6 +6,8 @@ public class Product {
     private double preco;
     private int quantidade;
 
+
+
     public String getNome() {
         return nome;
     }
@@ -52,4 +54,5 @@ public class Product {
                 ", Quantidade = " + getQuantidade() +
                 '}';
     }
+
 }

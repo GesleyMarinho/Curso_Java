@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main2 {
     public static void main(String[] args) {
-        String path = "C:\\Users\\gesley.marinho\\Downloads\\int.txt";
+        String path = "C:\\Users\\gesley.marinho\\Downloads\\ini.txt";
          //String path = null;
 
 
