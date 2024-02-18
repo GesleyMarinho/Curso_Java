@@ -1,11 +1,10 @@
-package PacoteAulasGenerics_Set_Map.Tipos_Curingas.EX01.ENTITIES;
+package PacoteAulasGenerics_Set_Map.Curingas_delimitados.entities;
 
-public class Circle implements Shape {
-
+public class Circle implements Shape
+{
     private double radius;
 
     public Circle(double radius) {
-
         this.radius = radius;
     }
 
@@ -16,7 +15,6 @@ public class Circle implements Shape {
     public void setRadius(double radius) {
         this.radius = radius;
     }
-
 
     @Override
     public double area() {
