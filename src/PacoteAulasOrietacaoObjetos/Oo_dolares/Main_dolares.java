@@ -12,8 +12,8 @@ public class Main_dolares {
         System.out.printf("Quantos Dolares vc deseja comprar: ");
         double qtComprar = ler.nextDouble();
 
-        System.out.println("O Valor a pagar Bruto é de: " + ConversaoDolares.precoPagar(dollar, qtComprar));
-        System.out.println("O valor menos os Impostos é de : " + ConversaoDolares.precoDollarSemImpostos(dollar, qtComprar));
+        System.out.println("O Valor a pagar Bruto é de: " + ConversaoDolares.precoDollarSemImpostos(dollar, qtComprar));
+        System.out.println("O valor menos os Impostos é de : " +  ConversaoDolares.precoPagar(dollar, qtComprar));
 
     }
 }

@@ -24,4 +24,9 @@ public class ComboDevice extends Device implements Scanner,Printer{
     public String scan() {
         return "Combo Scan result ";
     }
+
+    @Override
+    public String nextLine() {
+        return "";
+    }
 }

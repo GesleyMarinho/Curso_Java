@@ -17,4 +17,9 @@ public class ConcreteScanner extends Device implements Scanner {
     public String scan() {
         return "Scan content";
     }
+
+    @Override
+    public String nextLine() {
+        return "";
+    }
 }
