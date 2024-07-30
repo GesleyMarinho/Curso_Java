@@ -1,13 +1,11 @@
 package Trabalhando_Arquivos.ex;
 
-import Trabalhando_Arquivos.ex.Product;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class exerc01 {
+public class program {
     public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
