@@ -1,4 +1,4 @@
-package PacoteAulasespressoesLambadas.Lambdas;
+package PacoteAulasEspressoesLambadas.Predicate;
 
 
 import java.util.function.Predicate;

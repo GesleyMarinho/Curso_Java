@@ -1,4 +1,4 @@
-package PacoteAulasespressoesLambadas.Lambdas;
+package PacoteAulasEspressoesLambadas.Predicate;
 
 public class Product {
     private String nome;
@@ -17,9 +17,9 @@ public class Product {
         return preco;
     }
 
-   /* public static  boolean staticPredicateProduct(Product p){
+   public static  boolean staticPredicateProduct(Product p){
         return  p.getPreco() >= 100;
-    }*/
+    }
 
     public  boolean noStaticPredicateProduct(){
         return  getPreco() >= 100;
