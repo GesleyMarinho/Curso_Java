@@ -31,6 +31,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return nome + ", " + String.format("%.2f", preco);
+        return  nome + " - " + String.format("%.2f", preco);
     }
-}
+
+ }
