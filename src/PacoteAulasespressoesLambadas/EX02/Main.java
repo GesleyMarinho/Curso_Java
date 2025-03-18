@@ -25,7 +25,7 @@ public class Main {
                 line = br.readLine();
             }
             double valor = 2000;
-            Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
+           Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
 
             List<String> listEmail = list.stream().filter(p -> p.getSalary() > valor).map(p -> p.getEmail()).sorted(comp).collect(Collectors.toList());
             listEmail.forEach(System.out::println);
