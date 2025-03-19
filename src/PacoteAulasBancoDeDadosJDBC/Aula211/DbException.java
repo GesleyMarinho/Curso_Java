@@ -1,4 +1,4 @@
-package PacoteAulasBancoDeDadosJDBC.ConexaoBD;
+package PacoteAulasBancoDeDadosJDBC.Aula211;
 
 public class DbException extends RuntimeException {
     private static final long serialVersionUID = 1l;

@@ -1,4 +1,4 @@
-package PacoteAulasBancoDeDadosJDBC.ConexaoBD;
+package PacoteAulasBancoDeDadosJDBC.Aula212;
 
 import java.sql.*;
 
@@ -20,7 +20,7 @@ public class DB {
 
                 System.out.println("Conexão com SQLite estabelecida.");
 
-               // connection.close(); // Sempre feche a conexão após o uso
+                // connection.close(); // Sempre feche a conexão após o uso
             } catch (ClassNotFoundException e) {
                 System.out.println("Driver JDBC do SQLite não encontrado: " + e.getMessage());
             } catch (SQLException e) {
@@ -45,18 +45,18 @@ public class DB {
         }
     }
 
-    public static void closeStatment(Statement st){
-            if(st != null){
-                try {
-                    st.close();
-                } catch (SQLException e) {
-                    throw new DbException(e.getMessage());
-                }
+    public static void closeStatment(Statement st) {
+        if (st != null) {
+            try {
+                st.close();
+            } catch (SQLException e) {
+                throw new DbException(e.getMessage());
             }
+        }
     }
 
-    public static void closeResulSet(ResultSet rs){
-        if(rs != null){
+    public static void closeResulSet(ResultSet rs) {
+        if (rs != null) {
             try {
                 rs.close();
             } catch (SQLException e) {
@@ -64,4 +64,6 @@ public class DB {
             }
         }
     }
+
+
 }

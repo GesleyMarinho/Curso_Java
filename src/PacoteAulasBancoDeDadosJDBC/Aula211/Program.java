@@ -1,8 +1,4 @@
-package PacoteAulasBancoDeDadosJDBC;
-
-
-import PacoteAulasBancoDeDadosJDBC.ConexaoBD.DB;
-import PacoteAulasBancoDeDadosJDBC.ConexaoBD.DbException;
+package PacoteAulasBancoDeDadosJDBC.Aula211;
 
 
 import java.sql.Connection;
